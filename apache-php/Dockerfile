@@ -16,11 +16,10 @@ RUN apt-get install -y \
     git \
     zip \
     unzip \
-    vim \
+    nano \
     locales \
     software-properties-common \
-    python-software-properties \
-    iputils-ping
+    python-software-properties
 
 # Set up locales
 RUN locale-gen en_US.UTF-8
